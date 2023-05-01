@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding:0;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    background-image: url("/Users/Dell/Desktop/Tecnolochicas/Google/assets/flores4.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+header{
+    /*background-color: plum;*/
+    width: 100%;
+    height: 60px;
+}
+/* Con esto vamos a editar nav , pero nav esta dentro de header NOTA: Siempre poner un espacio entre header y nav por ejemplo */
+header nav{
+    display:flex;
+    justify-content:flex-end;    
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color : white;
+    font-family: Arial,sans-serif; 
+}
+header nav .nav-right-section{
+    width: 250px;
+    height:auto auto;
+    display: flex;
+    /* Eliminar puntitos*/
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color:whitesmoke;
+    font-family: Arial, sans-serif;
+}
+header nav .nav-right-section a img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;  
+}
+.dots-logo{
+    display:inline-block;
+    background-image: url("/Users/Dell/Desktop/Tecnolochicas/Google/assets/nav-dots.svg");
+    height: 26px;
+    width: 26px
+}
+main{
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container{
+    display: flex;
+    height: calc(100% - 200px);
+    width: 400vh;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+} 
+.google{
+    background-image: url("/Users/Dell/Desktop/Tecnolochicas/Google/assets/google_logo.svg");
+    width:300px ;
+    height:100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.buscador{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width:50vw ;
+    height:20px;
+    padding:10px 20px;
+    border-radius: 999px;
+    background-color: white ;
+    margin:0 auto;
+}
+.buscador p{
+    color: gray;
+    display: flex;
+    font-size: 1.2em;
+    width:50vw ;
+    height:20px;
+}
+.icono-shortcut {
+    justify-content: space-between;
+    display: flex;
+}
+.one{
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 50px;
+}
+p{
+    color:white
+}
+.cont-zoom{
+    text-align: center;
+    width: 100px;
+}
+.cont-zoom2{
+    text-align: center;
+    width: 100px;
+}
+.cont-zoom3{
+    text-align: center;
+    width: 100px;
+}
+.cont-zoom4{
+    text-align: center;
+    width: 100px;
+}
+.contorno{
+    margin-left: 30%;
+    margin-right: 30%;
+    height:50px;
+    width: 50px;
+    background-color:  rgb(208, 169, 241);
+    border-radius: 50%;
+
+}
+
+
