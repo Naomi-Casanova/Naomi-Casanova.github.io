@@ -3,12 +3,13 @@ body{
     padding:0;
     font-size: 13px;
     font-family: Arial, sans-serif;
-    background-image: url("assets/flores4.jpg");
+    /*background-image: url("css/flores4.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    
 }
 header{
     background-color: plum;
@@ -45,7 +46,7 @@ header nav .nav-right-section a img{
 }
 .dots-logo{
     display:inline-block;
-    background-image: url("assets/nav-dots.svg");
+    background-image: url("css/nav-dots.svg");
     height: 26px;
     width: 26px
 }
@@ -65,7 +66,7 @@ main .container{
     gap: 32px;
 } 
 .google{
-    background-image: url("assets/google_logo.svg");
+    background-image: url("css/google_logo.svg");
     width:300px ;
     height:100px;
     background-position: center;
